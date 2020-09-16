@@ -7,6 +7,7 @@ const enum Icons {
     Project = "BacklogBoard",
     PullRequest = "BranchPullRequest",
     Issues = "IssueTracking",
+    Inbox = "Inbox",
 }
 
 export default Icons;
