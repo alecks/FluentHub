@@ -9,6 +9,7 @@ enum Icons {
     PullRequest = "BranchPullRequest",
     Issues = "IssueTracking",
     Inbox = "Inbox",
+    Team = "People",
 }
 
 export default Icons;
