@@ -1,4 +1,4 @@
-const enum Icons {
+enum Icons {
     New = "Add",
     Import = "CloudImportExport",
     Repository = "ProjectCollection",
