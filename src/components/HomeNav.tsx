@@ -1,6 +1,34 @@
 import React from "react";
-import { Nav, INavLinkGroup, IRenderGroupHeaderProps, Stack, IStackTokens, SearchBox, INavLink } from "@fluentui/react";
+import {
+    Nav,
+    INavLinkGroup,
+    IRenderGroupHeaderProps,
+    Stack,
+    IStackTokens,
+    SearchBox,
+    IStackStyles,
+    IStackItemStyles,
+} from "@fluentui/react";
 import Icons from "../icons";
+
+const stackItemStyles: IStackItemStyles = {
+    root: {
+        display: "flex",
+        overflow: "hidden",
+    },
+};
+const nonShrinkingStackItemStyles: IStackItemStyles = {
+    root: {
+        display: "flex",
+        overflow: "hidden",
+        width: 500,
+    },
+};
+
+const horizontalStackTokens: IStackTokens = {
+    childrenGap: 5,
+    padding: 10,
+};
 
 class RepoListItem {
     /**
@@ -41,15 +69,32 @@ function onRenderGroupHeader(group?: IRenderGroupHeaderProps): JSX.Element {
 
 const stackTokens: Partial<IStackTokens> = { childrenGap: 20 };
 
+const stackStyles: IStackStyles = {
+    root: {
+        overflow: "hidden",
+        width: `100%`,
+    },
+};
+
 export default function HomeNav() {
     return (
-        <Stack tokens={stackTokens}>
-            <SearchBox placeholder="Search repositories" onSearch={console.log} />
-            <Nav
-                onRenderGroupHeader={onRenderGroupHeader}
-                ariaLabel="Repository and team navigation"
-                groups={navLinkGroups}
-            />
+        <Stack horizontal styles={stackStyles} tokens={horizontalStackTokens}>
+            <Stack.Item grow styles={stackItemStyles}>
+                <Stack tokens={stackTokens}>
+                    <SearchBox placeholder="Search repositories" onSearch={console.log} />
+                    <Nav
+                        onRenderGroupHeader={onRenderGroupHeader}
+                        ariaLabel="Repository and team navigation"
+                        groups={navLinkGroups}
+                    />
+                </Stack>
+            </Stack.Item>
+            <Stack.Item grow disableShrink styles={nonShrinkingStackItemStyles}>
+                // TODO
+            </Stack.Item>
+            <Stack.Item grow styles={stackItemStyles}>
+                // TODO
+            </Stack.Item>
         </Stack>
     );
 }
