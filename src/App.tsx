@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import HomeNav from "./components/HomeNav";
+import HomeNav from "./components/home";
 
 export default function App() {
     return (
