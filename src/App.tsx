@@ -6,7 +6,7 @@ export default function App() {
     return (
         <div>
             <Header />
-            <main style={{ padding: "2em" }}>
+            <main style={{ padding: "1.5em" }}>
                 <HomeNav />
             </main>
         </div>
