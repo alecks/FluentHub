@@ -1,4 +1,5 @@
 import React from "react";
+import Icons from "../icons";
 import { CommandBar, ICommandBarItemProps } from "@fluentui/react";
 
 export default function Header() {
@@ -23,22 +24,22 @@ const items: ICommandBarItemProps[] = [
                 {
                     key: "newRepository",
                     text: "Repository",
-                    iconProps: { iconName: "ProjectCollection" },
+                    iconProps: { iconName: Icons.Repository },
                 },
                 {
                     key: "newGist",
                     text: "Gist",
-                    iconProps: { iconName: "FileCode" },
+                    iconProps: { iconName: Icons.Gist },
                 },
                 {
                     key: "newOrganisation",
                     text: "Organisation",
-                    iconProps: { iconName: "BusinessCenterLogo" },
+                    iconProps: { iconName: Icons.Organisation },
                 },
                 {
                     key: "newProject",
                     text: "Project",
-                    iconProps: { iconName: "BacklogBoard" },
+                    iconProps: { iconName: Icons.Project },
                 },
             ],
         },
@@ -46,13 +47,13 @@ const items: ICommandBarItemProps[] = [
     {
         key: "importItem",
         text: "Import",
-        iconProps: { iconName: "CloudImportExport" },
+        iconProps: { iconName: Icons.Import },
         subMenuProps: {
             items: [
                 {
                     key: "importRepository",
                     text: "Repository",
-                    iconProps: { iconName: "ProjectCollection" },
+                    iconProps: { iconName: Icons.Repository },
                 },
             ],
         },
@@ -65,7 +66,7 @@ const farItems: ICommandBarItemProps[] = [
         text: "Pull requests",
         ariaLabel: "Pull requests",
         iconOnly: true,
-        iconProps: { iconName: "BranchPullRequest" },
+        iconProps: { iconName: Icons.PullRequest },
         onClick: () => console.log("PRs"),
     },
     {
@@ -73,7 +74,7 @@ const farItems: ICommandBarItemProps[] = [
         text: "Issues",
         ariaLabel: "Issues",
         iconOnly: true,
-        iconProps: { iconName: "IssueTracking" },
+        iconProps: { iconName: Icons.Issues },
         onClick: () => console.log("Issues"),
     },
     {
@@ -81,7 +82,7 @@ const farItems: ICommandBarItemProps[] = [
         text: "Inbox",
         ariaLabel: "Inbox",
         iconOnly: true,
-        iconProps: { iconName: "Inbox" },
+        iconProps: { iconName: Icons.Inbox },
         onClick: () => console.log("Inbox"),
     },
 ];
