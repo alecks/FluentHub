@@ -49,12 +49,14 @@ const navLinkGroups: INavLinkGroup[] = [
 ];
 
 export default function() {
-    return (<Stack tokens={stackTokens}>
-        <SearchBox placeholder="Search repositories" onSearch={console.log} />
-        <Nav
-            onRenderGroupHeader={onRenderGroupHeader}
-            ariaLabel="Repository and team navigation"
-            groups={navLinkGroups}
-        />
-    </Stack>);
+    return (
+        <Stack tokens={stackTokens}>
+            <SearchBox placeholder="Search repositories" onSearch={console.log} />
+            <Nav
+                onRenderGroupHeader={onRenderGroupHeader}
+                ariaLabel="Repository and team navigation"
+                groups={navLinkGroups}
+            />
+        </Stack>
+    );
 }
