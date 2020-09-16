@@ -1509,6 +1509,118 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fluentui/date-time-utilities@npm:^7.8.1":
+  version: 7.8.1
+  resolution: "@fluentui/date-time-utilities@npm:7.8.1"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    tslib: ^1.10.0
+  checksum: 98fd1a0d5305a2758706855bede7b5a207076e8123f9a23fd959784e8d9c3db80b3d90033252f59603b42ff47451e1c782168392d23c5558a3437c0246445be0
+  languageName: node
+  linkType: hard
+
+"@fluentui/dom-utilities@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@fluentui/dom-utilities@npm:1.1.0"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    tslib: ^1.10.0
+  checksum: 46a6dbb09760eb6329f5780e247eb0ca90db7d77414306dbfe69d60083953eb6627c46a9b49e74cad87a1db30b9da9a52f8a98e4ad3b74f81f5458e06256c30d
+  languageName: node
+  linkType: hard
+
+"@fluentui/keyboard-key@npm:^0.2.12":
+  version: 0.2.12
+  resolution: "@fluentui/keyboard-key@npm:0.2.12"
+  dependencies:
+    tslib: ^1.10.0
+  checksum: 216a8371f129ef5a83dc9b169f12d94ad1b2db2848f529b8e6da3fdd5bd69172010bc3d126acb874fc161a6e7de35c0dad6e88410c45a7170bc4a1fe480facf7
+  languageName: node
+  linkType: hard
+
+"@fluentui/react-focus@npm:^7.16.2":
+  version: 7.16.2
+  resolution: "@fluentui/react-focus@npm:7.16.2"
+  dependencies:
+    "@fluentui/keyboard-key": ^0.2.12
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/styling": ^7.16.2
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 896ad42c4cdc024f8b7033f1c6f9188bdff4b1b8780927d3e98548c065feccec90cdaf2aad52187cc4b0fd29f1c0eaa8e07123d6a1a55258ff4f5c7a71ae95d1
+  languageName: node
+  linkType: hard
+
+"@fluentui/react-icons@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@fluentui/react-icons@npm:0.3.2"
+  dependencies:
+    "@microsoft/load-themed-styles": ^1.10.26
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 9e0f633c50688f865100e34985b0ed0f93eeb107541ac5c1a0712fb972a9b20418410d0ad663282558ad90220faa9e71864427964c0a1cb189f349e154095230
+  languageName: node
+  linkType: hard
+
+"@fluentui/react-window-provider@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@fluentui/react-window-provider@npm:0.3.2"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: e4119a2058e856fcdfc95a0824efaba84bc25f1eb2e625734fc0319d59ba508af3a237e1b67873beb7a1f87dde5e1446395d0bb1a9c6c1764349aa578e37c44c
+  languageName: node
+  linkType: hard
+
+"@fluentui/react@npm:^7.137.3":
+  version: 7.137.3
+  resolution: "@fluentui/react@npm:7.137.3"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    office-ui-fabric-react: ^7.137.3
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 04288984947cfa1d694e9ed15c224ad0a96a7486a75af6da49e3b7201187bd6c87725049f477baa35524dfffc082a48ba109289acc1314306ab7dcfeef0b99c6
+  languageName: node
+  linkType: hard
+
+"@fluentui/theme@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@fluentui/theme@npm:0.2.2"
+  dependencies:
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 603140a49f2c2beab1bf594ad29fc69083ae620b96ab8885dbb1694834aa89b4cdcc55d2efe50f124c06038a7c3bfc0797e79efc4e3744aa6a835f84ec4e08e8
+  languageName: node
+  linkType: hard
+
 "@hapi/address@npm:2.x.x":
   version: 2.1.4
   resolution: "@hapi/address@npm:2.1.4"
@@ -1728,6 +1840,13 @@ __metadata:
     "@types/yargs": ^15.0.0
     chalk: ^3.0.0
   checksum: 33ad68320efb297c4bd98975105130e1b4096d631decfc5a093691e24f27fce0410b4a7c5a87b736873271ebc003e48e853529587e584b3152efca572139a4a3
+  languageName: node
+  linkType: hard
+
+"@microsoft/load-themed-styles@npm:^1.10.26":
+  version: 1.10.93
+  resolution: "@microsoft/load-themed-styles@npm:1.10.93"
+  checksum: 2cfe729648a765a9f0bb4d5908abd4356444e70bf1b798d0c899f02cea0646295c22f240954babb545c7a0af6c89a47a218410e8fa51dd227323c6957c5da1cc
   languageName: node
   linkType: hard
 
@@ -2338,6 +2457,103 @@ __metadata:
     typescript:
       optional: true
   checksum: 6683e7be617cc931da768e42d11af4685b71b75b5609e60a9da9355eac7c105a7bf1659000e714aed9a236efccf20d332ccc4d3003b4326d7160baea5339ee5d
+  languageName: node
+  linkType: hard
+
+"@uifabric/foundation@npm:^7.9.2":
+  version: 7.9.2
+  resolution: "@uifabric/foundation@npm:7.9.2"
+  dependencies:
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/styling": ^7.16.2
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 447b12ac4666e86ca7c0071bb0aef05e1488db57ab2f543f1f74a9a5e2227a87eb5d00d94d54807057c83296def2fa3803e0d452fbd380458607b6f9ce9df502
+  languageName: node
+  linkType: hard
+
+"@uifabric/icons@npm:^7.5.2":
+  version: 7.5.2
+  resolution: "@uifabric/icons@npm:7.5.2"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/styling": ^7.16.2
+    tslib: ^1.10.0
+  checksum: 69f0f425010cb7108bfbc12f0a96c9d3391805b98271e30a8ce4f1f137e5bd1dcba0c68e1f83aeed6beaba05a3d9406cc62477faee3ca68cb5f0676c4d90ae53
+  languageName: node
+  linkType: hard
+
+"@uifabric/merge-styles@npm:^7.19.1":
+  version: 7.19.1
+  resolution: "@uifabric/merge-styles@npm:7.19.1"
+  dependencies:
+    "@uifabric/set-version": ^7.0.23
+    tslib: ^1.10.0
+  checksum: 86349f8d2f653eb66893e39043a5204286646e3f6fc0df2f66d49c7e728c8a2c6bbd1d5eb5d0c9809abb9d3e3818c59afd011d14185d9e8064151ecda1b7edc3
+  languageName: node
+  linkType: hard
+
+"@uifabric/react-hooks@npm:^7.13.2":
+  version: 7.13.2
+  resolution: "@uifabric/react-hooks@npm:7.13.2"
+  dependencies:
+    "@fluentui/react-window-provider": ^0.3.2
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 3261a52bacc2a1085b67ae08fe297b2de0a76fbe1944ca6e7b1d72588efa6f81058cd4a1ac2bfc9dbf7668ef0c76b6484b54d42d0daed5f6110825890149738c
+  languageName: node
+  linkType: hard
+
+"@uifabric/set-version@npm:^7.0.23":
+  version: 7.0.23
+  resolution: "@uifabric/set-version@npm:7.0.23"
+  dependencies:
+    tslib: ^1.10.0
+  checksum: c59f238007b310c5e810df690358be3420153a462bfaeb83294e23759e70bcbdc2bd4ce4d6b28bd7de09fea0b9b339fc405526a5f38705f7a24c167a984ce8c2
+  languageName: node
+  linkType: hard
+
+"@uifabric/styling@npm:^7.16.2":
+  version: 7.16.2
+  resolution: "@uifabric/styling@npm:7.16.2"
+  dependencies:
+    "@fluentui/theme": ^0.2.2
+    "@microsoft/load-themed-styles": ^1.10.26
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/utilities": ^7.32.0
+    tslib: ^1.10.0
+  checksum: 8eff6e74b6de68e67d3008eea900adf77c9ac397cb333a96b68a7e96e33672de3fac20c9ff768fddc58e4e05f68aebd43069eca63fb8d13f011b792100ccde05
+  languageName: node
+  linkType: hard
+
+"@uifabric/utilities@npm:^7.32.0":
+  version: 7.32.0
+  resolution: "@uifabric/utilities@npm:7.32.0"
+  dependencies:
+    "@fluentui/dom-utilities": ^1.1.0
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/set-version": ^7.0.23
+    prop-types: ^15.7.2
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: 89e137c95c9015d776063afaa3abcce18102f1f1b7a4818ad95894c52dd22e77b7f92bc6980990a9954553442748ee1bcd7771510be51e2bc4ffa0f2e109ee87
   languageName: node
   linkType: hard
 
@@ -6460,6 +6676,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fluenthub@workspace:."
   dependencies:
+    "@fluentui/react": ^7.137.3
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
@@ -10214,6 +10431,33 @@ fsevents@^1.2.7:
   version: 1.1.2
   resolution: "obuf@npm:1.1.2"
   checksum: aa741387b0f5dc2b8addec7cd0e05448d8b2892b6e76e167e18a5b90f0b85bd4c9be4c7be01a354dee3353f5c3367b08006adb06e0737d6a8f1b88618147715a
+  languageName: node
+  linkType: hard
+
+"office-ui-fabric-react@npm:^7.137.3":
+  version: 7.137.3
+  resolution: "office-ui-fabric-react@npm:7.137.3"
+  dependencies:
+    "@fluentui/date-time-utilities": ^7.8.1
+    "@fluentui/react-focus": ^7.16.2
+    "@fluentui/react-icons": ^0.3.2
+    "@fluentui/react-window-provider": ^0.3.2
+    "@microsoft/load-themed-styles": ^1.10.26
+    "@uifabric/foundation": ^7.9.2
+    "@uifabric/icons": ^7.5.2
+    "@uifabric/merge-styles": ^7.19.1
+    "@uifabric/react-hooks": ^7.13.2
+    "@uifabric/set-version": ^7.0.23
+    "@uifabric/styling": ^7.16.2
+    "@uifabric/utilities": ^7.32.0
+    prop-types: ^15.7.2
+    tslib: ^1.10.0
+  peerDependencies:
+    "@types/react": ">=16.8.0 <17.0.0"
+    "@types/react-dom": ">=16.8.0 <17.0.0"
+    react: ">=16.8.0 <17.0.0"
+    react-dom: ">=16.8.0 <17.0.0"
+  checksum: c89b4e97ea8bfeb927f900dd9a9a2188c06a3fbc0ab05f7cdaa9ec5c3642b38836201a32db43eb2192a759ace2baa2068998d8a404a2be41cfd74fc69e35cf14
   languageName: node
   linkType: hard
 
