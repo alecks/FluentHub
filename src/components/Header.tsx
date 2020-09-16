@@ -2,7 +2,7 @@ import React from "react";
 import Icons from "../icons";
 import { CommandBar, ICommandBarItemProps } from "@fluentui/react";
 
-export default function Header() {
+export default function() {
     return (
         <header>
             <CommandBar

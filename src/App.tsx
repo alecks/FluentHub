@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import HomeNav from "./components/home";
 
-export default function App() {
+export default function() {
     return (
         <div>
             <Header />
